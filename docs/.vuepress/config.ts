@@ -10,7 +10,7 @@ import htmlModules from "./config/htmlModules"; // 自定义插入的html块
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: "vdoing", // 使用npm包主题
-  // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题
+  // theme: resolve(__dirname, "../../vdoing"), // 使用本地主题
 
   locales: {
     "/": {
@@ -21,7 +21,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
   },
   base: "/baiye-blog/",
-  // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  // base: "/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
@@ -123,6 +123,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     docsDir: "docs", // 编辑的文件夹
     editLinks: true, // 启用编辑
     editLinkText: "编辑",
+    docsBranch: "main",
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 

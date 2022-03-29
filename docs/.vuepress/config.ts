@@ -164,7 +164,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: "/img/head.png",
+      avatar: "/baiye-blog/img/head.png",
       name: "Baiye",
       slogan: "前端小白",
     },

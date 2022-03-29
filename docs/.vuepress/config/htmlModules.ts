@@ -28,7 +28,7 @@ const htmlModule: VdoingThemeConfig["htmlModules"] = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">微信号</p>
-    <img src="/img/wechat.png"  style="width:100%;" />
+    <img src="/baiye-blog/img/wechat.png"  style="width:100%;" />
     添加微信请注明来意，谢谢
     </p>
     </div>`,

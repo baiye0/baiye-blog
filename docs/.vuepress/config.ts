@@ -74,8 +74,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: "学习笔记",
             items: [
               { text: "Java", link: "/pages/4224d3/" },
-              { text: "《Java编程思想》笔记", link: "/java/javaThink/" },
-              { text: "《nest》笔记", link: "/node/nest/" },
+              { text: "《代码简洁之道》笔记", link: "/java/cleanCode/" },
+              { text: "设计模式笔记", link: "/java/design/" },
+              { text: "《Nest》笔记", link: "/node/nest/" },
             ],
           },
         ],

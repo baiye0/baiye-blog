@@ -69,12 +69,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: "后端",
         link: "/backend/",
+        //nest
         items: [
           {
             text: "学习笔记",
             items: [
-              { text: "Java", link: "/pages/4224d3/" },
-              { text: "《Java编程思想》笔记", link: "/java/javaThink/" },
+              { text: "《代码整洁之道》笔记", link: "/java/CleanCode/" },
               { text: "《nest》笔记", link: "/node/nest/" },
             ],
           },
